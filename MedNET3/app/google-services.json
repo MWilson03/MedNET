@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "860241466616",
+    "firebase_url": "https://mednet3-fea84.firebaseio.com",
+    "project_id": "mednet3-fea84",
+    "storage_bucket": "mednet3-fea84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860241466616:android:beace2f26eb97574",
+        "android_client_info": {
+          "package_name": "com.michaelwilson.android.aca.mednet3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860241466616-lar321mkrogoa6482afejsl8ho3tmcuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8eIQgHwIKkvZOPSlptW5VAOwX6QtTxHs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

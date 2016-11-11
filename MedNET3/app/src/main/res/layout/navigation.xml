@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/scrubs">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:id="@+id/floatingActionButton2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="24dp"
+        app:backgroundTint="@color/colorExtra7"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/app_bar_layout"
+        android:layout_alignRight="@+id/floatingActionButton2"
+        android:layout_alignEnd="@+id/floatingActionButton2"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginTop="7dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:text="Licenses"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:text="Medications"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/button6"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:text="Drug Allergies"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:text="Surgical History"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/angry_btn"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:text="Insurance"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="MedNET"
+        android:textSize="55dp"
+        android:textColor="@color/colorExtra7"
+        android:textStyle="bold"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Table of Contents"
+        android:textColor="@color/colorExtra4"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:textAlignment="center"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"/>
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:text="Medical History"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"/>
+
+</RelativeLayout>
